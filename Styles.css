@@ -18,9 +18,7 @@ nav{background-color:#E8682D;
 padding:5px;
 text-align: center;
 width: auto;
-
-
-}
+   }
 nav a {
   color: black;
   text-decoration: none;
@@ -50,6 +48,25 @@ body.menu-page {
     
     
 }
+body.menu-page {
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  body.menu-page {
+    border-width: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  body.menu-page {
+    border-width: 0;
+  }
+}
+
+
+
+
 
 .footer{
 align-items: auto;
@@ -125,5 +142,6 @@ img {
 	
 
 	
+
 
 
