@@ -17,7 +17,7 @@ padding: 10px;
 nav{background-color:#E8682D;
 padding:5px;
 text-align: center;
-width: auto;}
+width: auto;
 
 
 }
@@ -85,15 +85,11 @@ align-items: auto;
 
 .menu-row > div,
 .menu-row2 > div {
-    flex: 1;
+    flex: 1 1 300px;
     min-width: 0;
 }
 
-@media (max-width: 768px) {
-    .menu-row,
-    .menu-row2 {
-        flex-direction: column;
-    }
+
 
         .menu-row img,
         .menu-row2 img {
@@ -129,4 +125,5 @@ img {
 	
 
 	
+
 
